@@ -1,0 +1,28 @@
+{% extends 'base.html'%}
+
+{% block title %}
+MOTORCYCLE
+{% endblock %}
+
+<head><link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"></head>
+
+{% block body %}
+<div>
+<h1 style="font-size: 50px; font-family: cursive; font-weight: bolder; display: flex;
+justify-content: center; display-content:center">KAWAZAKI</h1>
+<p class="para">Kawasaki Heavy Industries Ltd.
+(KHI) (川崎重工業株式会社, Kawasaki Jūkōgyō Kabushiki-gaisha) is a Japanese public multinational corporation manufacturer of motorcycles, engines, heavy equipment,
+aerospace and defense equipment, rolling stock and ships, headquartered in Minato, Tokyo, Japan. It is also active in the production of industrial robots, gas turbines, pumps,
+boilers and other industrial products. The company is named after its founder, Shōzō Kawasaki. KHI is known as one of the three major heavy industrial manufacturers of Japan,
+alongside Mitsubishi Heavy Industries and IHI. Prior to the Second World War, KHI was part of the Kobe Kawasaki zaibatsu, which included Kawasaki Steel and Kawasaki Kisen.
+After the conflict, KHI became part of the DKB Group (keiretsu).[citation needed]Shōzō Kawasaki, born in 1836, was involved with the marine industry from a young age. He was involved with two offshore disasters but accredited his survival to the modernization of the ships. This led to the decision to create technological innovations for the Japanese shipping industry. In 1878, after struggling to find business, his first order was placed. This is marked as the company's start in the industry.
+In 1886, Kawasaki moved the business from Tokyo to Hyogo. This allowed space for the rise of orders placed to his company and the renaming to Kawasaki Dockyard. The new and improved company went public as Kawasaki Dockyard Co., Ltd when the demand for ships rose during the Sino-Japanese War of 1894. Kojiro Matsukata was announced as the company's first president.
+After opening a new factory in 1906, Kawasaki began diversifying its products. They began to produce parts for the railroad, automotive, and airplane industry by the end of World War 1. After the war, along with the Allied arms-limitation agreement in 1912, Kawasaki faced a huge decline in shipbuilding. In 1929, the Depression caused a large amount of financial problems with the company.
+During World War 2, Kawasaki was a major builder of combat aircraft like the Ki-61, which killed many US aircrew. Just afterwards, they adapted air intakes from combat aircraft to high speed motorcycles.[2][unreliable source?] In 1947, the government introduced a new shipbuilding agenda and gave Kawasaki a rise in profits and helped restore the company. The company was able to resume all operations and by the 1950s, Japan was leading as the world's largest shipbuilder.
+By the late 1960s into the 1970s Kawasaki had begun to withdraw from the shipbuilding industry and diversified its company, producing motorcycles, jet skis, bridges, tunnel-boring machines, and aircraft. They also supplied technologically advanced railroad cars to the New York subway system.
+In 1995, Kawasaki Heavy Industries came to an agreement with China to produce the largest containerships ever. This led to the company announcing higher than expected profits in 1996. However, shortly after the profits, the company saw a long decline in business forcing them to find a solution.
+With the company seeing continuous losses into the 21st century, it formed a joint venture with Ishikawajima-Harima Heavy Industries Co. However, by the end of 2001, the agreement was terminated. In the following years, Kawasaki Heavy Industries Co. have seen a fluctuation of profits and losses.[3]
+</p>
+<img style="width: 300px; height: 250px; float: right" src="{{url_for('static', filename='image/65359812_1.jpg')}}" alt="">
+</div>
+{% endblock %}
